@@ -1,0 +1,13 @@
+// Implement a Java program to find out the IP Address of the system.
+import java.io.*;
+import java.net.*;
+public class Practice {
+    public static void main(String[] args)throws Exception {
+        InetAddress ip = InetAddress.getLocalHost();
+        System.out.println("Host Name:"+ip.getHostName());
+        System.out.println("Host Address:"+ip.getHostAddress());
+
+    }
+
+
+}
